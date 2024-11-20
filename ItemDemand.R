@@ -6,6 +6,7 @@ library(forecast)
 store_train <- vroom('train.csv')
 store_test <- vroom('test.csv')
 # ctrl + space to view data
+# cmd + click to view in different tab
 
 storeItem1 <- store_train %>%
   filter(store==6, item==13)
